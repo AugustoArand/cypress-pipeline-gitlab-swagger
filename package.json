@@ -1,0 +1,20 @@
+{
+  "name": "cypress-swagger-back-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "spec": "npx cypress run --spec cypress/e2e/first-test.cy.js",
+    "start":" npx cypress open",
+    "test": "npx cypress run"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cypress": "^14.5.0",
+    "dotenv": "^16.5.0"
+  }
+}
